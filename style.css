@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+body {
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    border: 1px solid black;
+    width: 600px;
+    background-color: rgb(18, 39, 100);
+    color: seashell;
+    border-radius: 10px;
+}
+
+#remove {
+    margin-left: 20px;
+    background: url('images/delete_icon.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#submit, #task {
+    border-radius: 10px;
+    background-color: rgb(18, 39, 100);
+    color: seashell;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+h1 {
+    background-color: rgb(18, 39, 100);
+}
+
+ol {
+    background-color: rgb(18, 39, 100);
+}
+
+li {
+    background-color: rgb(18, 39, 100);
+}
