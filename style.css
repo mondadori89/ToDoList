@@ -15,8 +15,19 @@ body {
     border-radius: 10px;
 }
 
-#remove {
+#done {
     margin-left: 20px;
+    margin-top: 1px;
+    background: url('images/task_icon.png');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#remove {
+    margin-left: 40px;
     background: url('images/delete_icon.png');
     background-repeat: no-repeat;
     background-size: 20px;
