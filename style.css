@@ -34,6 +34,7 @@ body {
     position: absolute;
     width: 20px;
     height: 20px;
+    float: right;
 }
 
 #submit, #task {
