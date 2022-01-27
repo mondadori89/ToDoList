@@ -1,7 +1,9 @@
 * {
     text-align: center;
     font-family: sans-serif;
-    background-color: lightgray;
+    background-color: hsl(206deg 33% 96%);
+    letter-spacing: 1px;
+    transition: all 0.3s linear;
 }
 
 body {
@@ -15,26 +17,31 @@ body {
     border-radius: 10px;
 }
 
+#listItem {
+    background-color: rgb(18, 39, 100);
+    display: inline-block;
+    width: 400px;
+    margin-top: 10px;
+}
+
 #done {
-    margin-left: 20px;
-    margin-top: 1px;
+    position: relative;
+    margin-left: 19px;
     background: url('images/task_icon.png');
     background-repeat: no-repeat;
     background-size: 17px;
-    position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
 }
 
 #remove {
-    margin-left: 40px;
     background: url('images/delete_icon.png');
     background-repeat: no-repeat;
     background-size: 20px;
-    position: absolute;
     width: 20px;
     height: 20px;
-    float: right;
+    display: inline-block;
 }
 
 #submit, #task {
